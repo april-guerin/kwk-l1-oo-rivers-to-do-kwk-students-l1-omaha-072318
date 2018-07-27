@@ -17,6 +17,13 @@ class River
     @length
   end
   
+  def countries=(countries)
+    @countries = countries
+  end
+  def countries
+    @countries
+  end
+  
   # def flood=(flood)
   #   @flood = flood
   # end
