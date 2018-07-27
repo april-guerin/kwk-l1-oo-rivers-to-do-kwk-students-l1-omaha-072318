@@ -24,6 +24,13 @@ class River
     @countries
   end
   
+  def discharge=(discharge)
+    @discharge = discharge
+  end
+  def discharge
+    @discharge
+  end
+  
   # def flood=(flood)
   #   @flood = flood
   # end
