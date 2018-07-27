@@ -35,6 +35,6 @@ class River
     @discharge = discharge * 1.3
   end
   def dry_up
-    @discarge = discharge * 0.5
+    @discarge = discharge / 2
   end
 end
