@@ -32,7 +32,7 @@ class River
   end
   
   def flood
-    @discharge = discharge * 1.30
+    @discharge = discharge * 1.3
   end
     
 end
